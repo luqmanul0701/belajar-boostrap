@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <title>Utilities Bootstrap 5</title>
+</head>
+
+<body style="height: 5000px;">
+    <br class="container m-5">
+
+        <h4 class="text-center">Utilities Bootstrap 5</h4>
+        <h2 class="text-center">Dispaly, Float And Position</h2>
+        <hr>
+
+
+        <!-- Lets Begin -->
+
+
+
+        <h3 class="text-primary">Display</h3>
+        <p>Bagaimana Perilaku dari Display..?</p>
+        <!-- Div & Span -> Pengelompokan -->
+
+        <span></span>
+        <div></div>
+        <!-- 
+        Popular Display : 
+        1. Inline
+        2. Block
+        3. inline-block
+        4. flex
+        5. Grid
+        6 . etc -->
+
+
+        <!-- 1. Inline -->
+
+        <!-- Span Display = Inline -->
+        <!-- a. Inline tidak menambahkan baris ketika ditambahkan elment yang memiliki display inline di dekatnya. (Span) -->
+        <span>naufal</span>
+        <span>luqmanul</span>
+        <!-- b. lebar dan tingginya sesuai element didalamnya  -->
+        <span class="bg-danger">naufal Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam hic voluptatem doloremque excepturi facere nemo assumenda laboriosam eos. Assumenda, cupiditate.</span>
+        <br>
+        <span class="bg-primary">Naufal Luqmanul</span>
+        <!-- c. tinggi dan lebar tidak dapat di atur -->
+        <br>
+        <span class="bg-success" style="width: 100px; height: 100px;">Muhammad Naufal</span>
+        <!-- d. margin & pading hanya mempengaruhi element secara horizontal tidak Vertical -->
+        <span class="bg-warning p-5">Muhammad naufal</span>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cum nesciunt necessitatibus laborum quae blanditiis pariatur ratione aspernatur cupiditate saepe.</span>
+
+        <!-- 2. Block -->
+        <!--Div Display = Block -->
+        
+        <!-- a. menambahkan baris baru ketika ditambahkan element HTML yang memiliki display block -->
+        <hr>
+        <div>naufal</div>
+        <div>cala</div>
+        <!-- b. dapat di atur lebar dan tigginya, tapi jika tidak di atur secara default lebarnya akan memenuhi atau sesuai dengan element pembungkusnya -->
+        <br>
+        <div class="bg-info" style="width: 100px; height: 100px;" >AKU</div>
+
+        <!-- 3. Inline-Block -->
+        <hr>
+        <div class="bg-primary d-inline-block">Muhammad</div>
+        <div class="bg-primary d-inline-block" style="width: 80px; height: 25px;">Naufal</div>
+        <!-- Display Inline-Block -->
+        <!-- a. Berperilaku seperti inline & Block -->
+        <div class="d-inline">Muhammad</div>
+        <div class="d-inline">Muhammad</div>
+        <span class="d-block">Naufal</span>
+        <span class="d-block">Naufal</span>
+
+        <!-- Merubah Display di bootstarp 5 -->
+
+            <br>
+        <br>
+        <h3 class="text-primary">Float</h3>
+        <p>Bagaimana Perilaku dari Float..?</p>
+
+        <!-- 4. Float -->
+        <!-- 1. Mangatur Posisi pada sebuah element. -->
+        <!-- 2. dipaksa berada di sebelah kanan atau kiri pada element pembungkusnya atau istilahnya mengambang. -->
+        <!-- 3. prilakunya berbeda dengan alignment. -->
+        <!-- 4. Clear fix -> membersihkan float -> collaps -->
+
+        <div style="width: 500px;" class="bg-secondary clearfix">
+            <div style="width: 100px; height: 100px;" class="bg-primary float-end">Element1</div>
+            <div style="width: 100px; height: 100px;" class="bg-primary float-end">Element2</div>
+            <div style="width: 100px; height: 100px;" class="bg-primary float-end">Element3</div>
+        </div>
+
+        <br>
+        <h3 class="text-primary">Position</h3>
+        <p>Bagaimana Perilaku dari Position..?</p>
+        <!-- 5. Position -->
+
+        <!-- a. Static -->
+        <!-- b. Retalive -->
+        <!-- c. Absolute -->
+        <!-- d. Fixed -->
+    </div>
+
+    <!-- End Session -->
+    <!--Thank You -->
+
+
+
+
+
+
+    <!-- Bootstrap Javascript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Popper Javascript -->
+    <script src="js/popper.min.js"></script>
+</body>
+
+</html>

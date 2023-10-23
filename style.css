@@ -1,0 +1,8 @@
+.counter-container {
+    display: flex;
+    align-items: center;
+}
+
+.counter-button {
+    cursor: pointer;
+}
